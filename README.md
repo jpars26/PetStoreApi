@@ -3,6 +3,7 @@
 ````markdown
 # PetStore API Test Suite
 
+
 Este repositório contém uma suíte de testes automatizados em Java + RestAssured para a API pública do Swagger PetStore. Os testes cobrem:
 
 1. POST /store/order – Cadastrar um novo pedido de pet com sucesso  
@@ -24,7 +25,14 @@ Antes de rodar os testes, você precisa ter:
   No Windows, recomendamos instalar via Chocolatey (veja abaixo).
 ````
 ---
+## ❓ Por que usei o Maven?
 
+- **Gerenciamento de dependências**: baixa e versiona automaticamente JUnit, RestAssured, Hamcrest, etc.  
+- **Padronização**: convenção de pastas `src/main/java` e `src/test/java` facilita a leitura do projeto por qualquer desenvolvedor Java.  
+- **Automação de build**: com um só comando (`mvn test`) você compila, executa testes e gera relatórios.  
+- **Integração contínua**: fácil de integrar em pipelines (GitHub Actions, Jenkins, Azure Pipelines), bastando chamar `mvn` para rodar toda a suíte.  
+- **Plugins ricos**: suporte a plugins de cobertura (JaCoCo), análise estática (Checkstyle, SpotBugs), deploy e muito mais.
+---
 ## ⚙️ Instalando o Maven (Windows + Chocolatey)
 
 1. Abra o **PowerShell** como **Administrador**
@@ -44,6 +52,7 @@ Antes de rodar os testes, você precisa ter:
 > [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
 
 ---
+
 
 ## 📂 Estrutura do Projeto
 
