@@ -57,7 +57,7 @@ Antes de rodar os testes, você precisa ter:
 ## 📂 Estrutura do Projeto
 
 ```
-petstore-tests/
+PetStoreApi/
 ├── pom.xml
 └── src
     └── test
@@ -78,7 +78,7 @@ petstore-tests/
 1. **Clone** o repositório:
 
    ```bash
-   git clone https://github.com/seu-usuario/petstore-tests.git
+   git clone https://github.com/jpars26/PetStoreApi.git
    cd petstore-tests
    ```
 2. **Execute** a suíte de testes:
