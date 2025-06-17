@@ -79,7 +79,7 @@ PetStoreApi/
 
    ```bash
    git clone https://github.com/jpars26/PetStoreApi.git
-   cd petstore-tests
+   cd PetStoreApi
    ```
 2. **Execute** a suíte de testes:
 
