@@ -1,0 +1,31 @@
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Diretórios do Maven
+/target/
+
+# Arquivos de log
+*.log
+
+# Configurações locais e temporárias
+*.tmp
+*.swp
+*.bak
+*.old
+
+# VSCode
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente
+.env
+
+# IntelliJ (caso use em algum momento)
+.idea/
+*.iml
